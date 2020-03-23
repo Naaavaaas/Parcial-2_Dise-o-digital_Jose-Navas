@@ -1,64 +1,44 @@
-@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Caladea&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap')
-<p style>
-text-align: center;
-h3 {
-    color: rgba(119,117,117,1.00);
-   font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 15pt;
-    text-align: center;
-    line-height: 2.0;
-}
-ul{
-    background-color: rgba(231, 229, 226, 0.425);
-    padding:10px;
-    border: 2px;
-    border-color: aqua;
-	
-}
-
-li{
-    display:inline;
-    margin: 20px;
-    text-decoration: none;
-    font-family: Century Gothic;
-    color: black;
-    padding: 20px;
-    border-width: 10px;
-    border-color: aqua; 
-}
 
 h1{
+    color:read-write(0, 0, 0);
+    font-family: "Caladea";
+    font-size: 50pt;
+    text-align: center;
+    line-height: 1.0;
+}
+h2 {
     color: rgb(0, 0, 0);
-    font-family: "Lora";
-    font-size: 45pt;
-	text-align: center;
-	line-height: 1.0;
-	
-
+    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: 20pt;
+    text-align:center;
+    line-height: 1.0;
 	
 }
-h2{
-	line-height: 0.05pt;
-	color:slategray;
-	font-size: 20pt;
-	text-align:center
-}
-p{
+table {align-content: center}
+p {
     color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Impact, Haettenschweiler, "Arial Black", "sans-serif"Helvetica, sans-serif;
     font-size: 12pt;
-	text-align: justify;
-	word-spacing: 4px;
-	line-height: 1.5;
-	
-img src{
-		align-content: center
-	}
+    text-align: justify;
 
 }
-p.alternativo {
-    color:black;
+h3 {
+    color:dimgrey0, 0);
+    font-family: "Helvetica";
+    font-size: 12pt;
+    text-align:inherit;
+    line-height: 1.0;
+}
+p: {
+    color: black;
+	font-family: "Helvetica";
+    font-size: 9pt;
+    text-align: center;
+    font-style: italic;
+    line-height: 1.0;
 }
 a:link {
     color: black;
@@ -68,6 +48,5 @@ a:visited {
 }
 a:hover {
     text-decoration: none;
-}@charset "utf-8";
-/* CSS Document */
+}
 
